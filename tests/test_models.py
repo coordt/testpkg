@@ -2,5 +2,5 @@
 # from testpkg import models
 
 
-class test_testpkg:
+def test_testpkg():
     assert 1 + 1 == 2
