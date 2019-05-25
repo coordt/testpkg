@@ -1,0 +1,3 @@
+# Your app requirements.
+-r ../requirements/dev.txt
+

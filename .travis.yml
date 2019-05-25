@@ -1,0 +1,15 @@
+# Config file for automatic testing at travis-ci.orglanguage: python
+
+python:
+  - "3.6"
+  - "3.7"
+
+env:
+  - DJANGO="2.1"
+  - DJANGO="2.2"
+
+matrix:
+  fast_finish: true
+
+install: pip install tox-travis
+script: tox
