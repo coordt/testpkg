@@ -64,7 +64,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Django Testpkg'
-copyright = u"{}, Corey Oordt".format(datetime.date.today().year)
+copyright = f"{datetime.date.today().year}, Corey Oordt"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

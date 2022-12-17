@@ -3,4 +3,4 @@
 
 
 def test_testpkg():
-    assert 1 + 1 == 2
+    pass
